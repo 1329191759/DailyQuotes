@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152A065DB4BDE0ABFF3082C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A6C44C814016C17CCB6798 /* Assets.xcassets */; };
+		168A9DCC1221514C1F5A2002 /* QuoteBankStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7CB5590AE5CFBF7141B787 /* QuoteBankStorage.swift */; };
+		26F6C280872B9FF5A37E0271 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D3110E7DE9D5B4E863F1CB /* Language.swift */; };
+		2A3A9F68407ADA5CC272FD1A /* QuoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB801894819C9D4427F31515 /* QuoteListView.swift */; };
+		3A18E1A21AD27E5B85729F47 /* SavedQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB6C5C2E3116D365F1DA24A /* SavedQuote.swift */; };
+		3E6130C32C62757E693BB6C9 /* QuoteHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B721C7A1A5999A6FBAE576 /* QuoteHistory.swift */; };
+		43F3DA8F6AC2EBF2280EDF40 /* DailyQuoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6882A1F049E40ED3774144 /* DailyQuoteTests.swift */; };
+		4C644BD8176A4E388AC48EBF /* zh_quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CDB5181C3CD65C215454FE0 /* zh_quotes.json */; };
+		4CDF38CA83FE5CA56A667BBE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C133F9E9D8B9B8E35437154 /* SettingsView.swift */; };
+		634C0B6A47DF8511D755C8CB /* QuoteCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66FC76945FC85EC0FFFE42E /* QuoteCard.swift */; };
+		71523AE2DC208A0DE0ADE2DD /* en_quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = F380EC3519062D82AC84C93D /* en_quotes.json */; };
+		7B8881A659979CC0624802E8 /* TestDoubles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E4E4540B55D14B89086768 /* TestDoubles.swift */; };
+		81B1565F76F26767ACA91D63 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83255BE4895AE326A334BC15 /* L10n.swift */; };
+		82FC48A1CEDBE131AACB977E /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AA619132723BCC87E5B7B5 /* Quote.swift */; };
+		84E8098CBEDCF7B50107EEBE /* QuoteListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A38230C0201D15CE0A8C0E /* QuoteListViewModelTests.swift */; };
+		8B453514D6B3B8B48CD1AC52 /* RussianQuoteFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BCE27D6BE998738493A1D13 /* RussianQuoteFetcher.swift */; };
+		916ECE25A754D116082C0594 /* QuoteHistoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516BDB2B4FEDC25807062CA /* QuoteHistoryTests.swift */; };
+		938BE1BB99E503D258E23255 /* BulkQuoteSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7554A50C00E87335B3A8E93 /* BulkQuoteSource.swift */; };
+		9400861D99CCF73BC0C67AFB /* QuoteBankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BD5480FFEE5AB6F262F053 /* QuoteBankTests.swift */; };
+		947633CF3F2A176CA764D7C5 /* LanguageFilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6DDEA2ADF4DB11CBFAED3B /* LanguageFilterTests.swift */; };
+		9C236C44C78B392C582B6839 /* LanguageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405770E82B315E0332AC5835 /* LanguageFilter.swift */; };
+		A14DE313024841129D293FF8 /* QuoteDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB22B45A476BF214E3AFDEA /* QuoteDTO.swift */; };
+		A2EE6F590587282F8845225F /* HTTPJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A616EA613461F2ECD07B1C /* HTTPJSON.swift */; };
+		AEDBDB3519EE4ED9344896DD /* DailyQuoteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D7708145D3741E7E0042B3 /* DailyQuoteStore.swift */; };
+		B46B118714E4E8A60E989BF3 /* NetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C297059B05B3D29A542188D /* NetworkingTests.swift */; };
+		B52CC4523528A7373766D94B /* DailyQuoteViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93733629D7A7856C7A0711C0 /* DailyQuoteViews.swift */; };
+		C0AD3D028D91C19BB4A14EC2 /* russian_quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 5411470DD2D939F9DEDC4BBF /* russian_quotes.json */; };
+		C20A746507612875EBD374CD /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02301FC34FBA1905C4676897 /* AppTheme.swift */; };
+		E17863639239362E593B0657 /* QuoteAPIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C5162AD1B40A5308F39DBA /* QuoteAPIError.swift */; };
+		E40BA3B32E4B7AA3E72A843B /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61EB026F3CFFFA6CC698DFCE /* FavoritesView.swift */; };
+		ED564C3FB37255B5C8E84B24 /* QuoteListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B67EBDF8574411352EC797 /* QuoteListViewModel.swift */; };
+		ED5D2A1C66C6960D7EBB1EE7 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB3ED78CF2DC640B8B9B7E /* AppSettings.swift */; };
+		F62E4D5D238289319F0CD9E2 /* DailyQuote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69059F77B41B5D96FD9298AD /* DailyQuote.swift */; };
+		F9166BD0476B92E6F2FD5A43 /* DailyQuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B1C9ABA4C2250490E308F /* DailyQuotesApp.swift */; };
+		FA2DC4C2E4305FD80E1EBEAE /* QuoteBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = A881E72DC2FE32733F189E58 /* QuoteBank.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33D0B733879B7E6B5F2F909F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4CB65C112DBD785574586C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E784161E6BB3A1B30A38F73;
+			remoteInfo = DailyQuotes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02301FC34FBA1905C4676897 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		05BD5480FFEE5AB6F262F053 /* QuoteBankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteBankTests.swift; sourceTree = "<group>"; };
+		0CDB5181C3CD65C215454FE0 /* zh_quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = zh_quotes.json; sourceTree = "<group>"; };
+		1B6DDEA2ADF4DB11CBFAED3B /* LanguageFilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageFilterTests.swift; sourceTree = "<group>"; };
+		1C133F9E9D8B9B8E35437154 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1C297059B05B3D29A542188D /* NetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingTests.swift; sourceTree = "<group>"; };
+		28A616EA613461F2ECD07B1C /* HTTPJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPJSON.swift; sourceTree = "<group>"; };
+		34D7708145D3741E7E0042B3 /* DailyQuoteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuoteStore.swift; sourceTree = "<group>"; };
+		3B6882A1F049E40ED3774144 /* DailyQuoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuoteTests.swift; sourceTree = "<group>"; };
+		3BB22B45A476BF214E3AFDEA /* QuoteDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDTO.swift; sourceTree = "<group>"; };
+		405770E82B315E0332AC5835 /* LanguageFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageFilter.swift; sourceTree = "<group>"; };
+		46AA619132723BCC87E5B7B5 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		4FB836D2FB29451F7428103E /* DailyQuotes.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = DailyQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5411470DD2D939F9DEDC4BBF /* russian_quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = russian_quotes.json; sourceTree = "<group>"; };
+		61EB026F3CFFFA6CC698DFCE /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		69059F77B41B5D96FD9298AD /* DailyQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuote.swift; sourceTree = "<group>"; };
+		6BCE27D6BE998738493A1D13 /* RussianQuoteFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianQuoteFetcher.swift; sourceTree = "<group>"; };
+		7EB6C5C2E3116D365F1DA24A /* SavedQuote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedQuote.swift; sourceTree = "<group>"; };
+		80B67EBDF8574411352EC797 /* QuoteListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListViewModel.swift; sourceTree = "<group>"; };
+		83255BE4895AE326A334BC15 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
+		84A6C44C814016C17CCB6798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86B721C7A1A5999A6FBAE576 /* QuoteHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteHistory.swift; sourceTree = "<group>"; };
+		93733629D7A7856C7A0711C0 /* DailyQuoteViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuoteViews.swift; sourceTree = "<group>"; };
+		A1AB3ED78CF2DC640B8B9B7E /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		A4A38230C0201D15CE0A8C0E /* QuoteListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListViewModelTests.swift; sourceTree = "<group>"; };
+		A5D3110E7DE9D5B4E863F1CB /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		A881E72DC2FE32733F189E58 /* QuoteBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteBank.swift; sourceTree = "<group>"; };
+		BF7CB5590AE5CFBF7141B787 /* QuoteBankStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteBankStorage.swift; sourceTree = "<group>"; };
+		C1C5162AD1B40A5308F39DBA /* QuoteAPIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteAPIError.swift; sourceTree = "<group>"; };
+		C3E4E4540B55D14B89086768 /* TestDoubles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDoubles.swift; sourceTree = "<group>"; };
+		C68B1C9ABA4C2250490E308F /* DailyQuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyQuotesApp.swift; sourceTree = "<group>"; };
+		CB801894819C9D4427F31515 /* QuoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListView.swift; sourceTree = "<group>"; };
+		E516BDB2B4FEDC25807062CA /* QuoteHistoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteHistoryTests.swift; sourceTree = "<group>"; };
+		E7554A50C00E87335B3A8E93 /* BulkQuoteSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkQuoteSource.swift; sourceTree = "<group>"; };
+		F380EC3519062D82AC84C93D /* en_quotes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = en_quotes.json; sourceTree = "<group>"; };
+		F66FC76945FC85EC0FFFE42E /* QuoteCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCard.swift; sourceTree = "<group>"; };
+		FEA00B70E73DE78250966899 /* DailyQuotesTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DailyQuotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		03A4B538F5DB762C3511D52C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C68B1C9ABA4C2250490E308F /* DailyQuotesApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1DB4336670607C7BCA6E8380 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				34D7708145D3741E7E0042B3 /* DailyQuoteStore.swift */,
+				BF7CB5590AE5CFBF7141B787 /* QuoteBankStorage.swift */,
+				7EB6C5C2E3116D365F1DA24A /* SavedQuote.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		256E1D177CD3E2D28666142B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84A6C44C814016C17CCB6798 /* Assets.xcassets */,
+				F380EC3519062D82AC84C93D /* en_quotes.json */,
+				5411470DD2D939F9DEDC4BBF /* russian_quotes.json */,
+				0CDB5181C3CD65C215454FE0 /* zh_quotes.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2A5166E1D5FD453991E065E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				02301FC34FBA1905C4676897 /* AppTheme.swift */,
+				69059F77B41B5D96FD9298AD /* DailyQuote.swift */,
+				83255BE4895AE326A334BC15 /* L10n.swift */,
+				A5D3110E7DE9D5B4E863F1CB /* Language.swift */,
+				405770E82B315E0332AC5835 /* LanguageFilter.swift */,
+				46AA619132723BCC87E5B7B5 /* Quote.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		340A8A6619F743A1B8F53A67 = {
+			isa = PBXGroup;
+			children = (
+				3ED79F563D40C02054706DB5 /* DailyQuotes */,
+				F8F923C6DFFAFB4CDF7C64A0 /* DailyQuotesTests */,
+				89A6D5211F1B662805B8A390 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		366052BEB90741D623F9A84E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A1AB3ED78CF2DC640B8B9B7E /* AppSettings.swift */,
+				1C133F9E9D8B9B8E35437154 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3ED79F563D40C02054706DB5 /* DailyQuotes */ = {
+			isa = PBXGroup;
+			children = (
+				03A4B538F5DB762C3511D52C /* App */,
+				5748C37503CC2727B0652891 /* Components */,
+				473A047F052340DFCE9DC781 /* Features */,
+				2A5166E1D5FD453991E065E8 /* Models */,
+				6F42C40B4BD00EDFC12AA1A6 /* Networking */,
+				1DB4336670607C7BCA6E8380 /* Persistence */,
+				256E1D177CD3E2D28666142B /* Resources */,
+				366052BEB90741D623F9A84E /* Settings */,
+			);
+			path = DailyQuotes;
+			sourceTree = "<group>";
+		};
+		473A047F052340DFCE9DC781 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				63C68F2B69DE0D3F57F68E92 /* Favorites */,
+				545E160BB809A60DE109BECD /* QuoteList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		545E160BB809A60DE109BECD /* QuoteList */ = {
+			isa = PBXGroup;
+			children = (
+				93733629D7A7856C7A0711C0 /* DailyQuoteViews.swift */,
+				A881E72DC2FE32733F189E58 /* QuoteBank.swift */,
+				86B721C7A1A5999A6FBAE576 /* QuoteHistory.swift */,
+				CB801894819C9D4427F31515 /* QuoteListView.swift */,
+				80B67EBDF8574411352EC797 /* QuoteListViewModel.swift */,
+			);
+			path = QuoteList;
+			sourceTree = "<group>";
+		};
+		5748C37503CC2727B0652891 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F66FC76945FC85EC0FFFE42E /* QuoteCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		63C68F2B69DE0D3F57F68E92 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				61EB026F3CFFFA6CC698DFCE /* FavoritesView.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		6F42C40B4BD00EDFC12AA1A6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E7554A50C00E87335B3A8E93 /* BulkQuoteSource.swift */,
+				28A616EA613461F2ECD07B1C /* HTTPJSON.swift */,
+				C1C5162AD1B40A5308F39DBA /* QuoteAPIError.swift */,
+				3BB22B45A476BF214E3AFDEA /* QuoteDTO.swift */,
+				6BCE27D6BE998738493A1D13 /* RussianQuoteFetcher.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		89A6D5211F1B662805B8A390 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FB836D2FB29451F7428103E /* DailyQuotes.app */,
+				FEA00B70E73DE78250966899 /* DailyQuotesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8F923C6DFFAFB4CDF7C64A0 /* DailyQuotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B6882A1F049E40ED3774144 /* DailyQuoteTests.swift */,
+				1B6DDEA2ADF4DB11CBFAED3B /* LanguageFilterTests.swift */,
+				1C297059B05B3D29A542188D /* NetworkingTests.swift */,
+				05BD5480FFEE5AB6F262F053 /* QuoteBankTests.swift */,
+				E516BDB2B4FEDC25807062CA /* QuoteHistoryTests.swift */,
+				A4A38230C0201D15CE0A8C0E /* QuoteListViewModelTests.swift */,
+				C3E4E4540B55D14B89086768 /* TestDoubles.swift */,
+			);
+			path = DailyQuotesTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E784161E6BB3A1B30A38F73 /* DailyQuotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9507926CF13CCAABBF1B32D4 /* Build configuration list for PBXNativeTarget "DailyQuotes" */;
+			buildPhases = (
+				9330FF45188C64F471F0A055 /* Sources */,
+				436A71B5A35A4EE141BD47B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyQuotes;
+			packageProductDependencies = (
+			);
+			productName = DailyQuotes;
+			productReference = 4FB836D2FB29451F7428103E /* DailyQuotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FB407CD47FFD05A0D9DF62E /* DailyQuotesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4DEA30C040325FF4B9B334A /* Build configuration list for PBXNativeTarget "DailyQuotesTests" */;
+			buildPhases = (
+				1E68C902F00A7D014A853269 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC2D488B967D1F4911C6C2B0 /* PBXTargetDependency */,
+			);
+			name = DailyQuotesTests;
+			packageProductDependencies = (
+			);
+			productName = DailyQuotesTests;
+			productReference = FEA00B70E73DE78250966899 /* DailyQuotesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4CB65C112DBD785574586C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 17E67EF209339FD691082289 /* Build configuration list for PBXProject "DailyQuotes" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 340A8A6619F743A1B8F53A67;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 89A6D5211F1B662805B8A390 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E784161E6BB3A1B30A38F73 /* DailyQuotes */,
+				4FB407CD47FFD05A0D9DF62E /* DailyQuotesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		436A71B5A35A4EE141BD47B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152A065DB4BDE0ABFF3082C3 /* Assets.xcassets in Resources */,
+				71523AE2DC208A0DE0ADE2DD /* en_quotes.json in Resources */,
+				C0AD3D028D91C19BB4A14EC2 /* russian_quotes.json in Resources */,
+				4C644BD8176A4E388AC48EBF /* zh_quotes.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E68C902F00A7D014A853269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43F3DA8F6AC2EBF2280EDF40 /* DailyQuoteTests.swift in Sources */,
+				947633CF3F2A176CA764D7C5 /* LanguageFilterTests.swift in Sources */,
+				B46B118714E4E8A60E989BF3 /* NetworkingTests.swift in Sources */,
+				9400861D99CCF73BC0C67AFB /* QuoteBankTests.swift in Sources */,
+				916ECE25A754D116082C0594 /* QuoteHistoryTests.swift in Sources */,
+				84E8098CBEDCF7B50107EEBE /* QuoteListViewModelTests.swift in Sources */,
+				7B8881A659979CC0624802E8 /* TestDoubles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9330FF45188C64F471F0A055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5D2A1C66C6960D7EBB1EE7 /* AppSettings.swift in Sources */,
+				C20A746507612875EBD374CD /* AppTheme.swift in Sources */,
+				938BE1BB99E503D258E23255 /* BulkQuoteSource.swift in Sources */,
+				F62E4D5D238289319F0CD9E2 /* DailyQuote.swift in Sources */,
+				AEDBDB3519EE4ED9344896DD /* DailyQuoteStore.swift in Sources */,
+				B52CC4523528A7373766D94B /* DailyQuoteViews.swift in Sources */,
+				F9166BD0476B92E6F2FD5A43 /* DailyQuotesApp.swift in Sources */,
+				E40BA3B32E4B7AA3E72A843B /* FavoritesView.swift in Sources */,
+				A2EE6F590587282F8845225F /* HTTPJSON.swift in Sources */,
+				81B1565F76F26767ACA91D63 /* L10n.swift in Sources */,
+				26F6C280872B9FF5A37E0271 /* Language.swift in Sources */,
+				9C236C44C78B392C582B6839 /* LanguageFilter.swift in Sources */,
+				82FC48A1CEDBE131AACB977E /* Quote.swift in Sources */,
+				E17863639239362E593B0657 /* QuoteAPIError.swift in Sources */,
+				FA2DC4C2E4305FD80E1EBEAE /* QuoteBank.swift in Sources */,
+				168A9DCC1221514C1F5A2002 /* QuoteBankStorage.swift in Sources */,
+				634C0B6A47DF8511D755C8CB /* QuoteCard.swift in Sources */,
+				A14DE313024841129D293FF8 /* QuoteDTO.swift in Sources */,
+				3E6130C32C62757E693BB6C9 /* QuoteHistory.swift in Sources */,
+				2A3A9F68407ADA5CC272FD1A /* QuoteListView.swift in Sources */,
+				ED564C3FB37255B5C8E84B24 /* QuoteListViewModel.swift in Sources */,
+				8B453514D6B3B8B48CD1AC52 /* RussianQuoteFetcher.swift in Sources */,
+				3A18E1A21AD27E5B85729F47 /* SavedQuote.swift in Sources */,
+				4CDF38CA83FE5CA56A667BBE /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC2D488B967D1F4911C6C2B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E784161E6BB3A1B30A38F73 /* DailyQuotes */;
+			targetProxy = 33D0B733879B7E6B5F2F909F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		243C675911229D8D806ED9C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mac.dailyquotes.tests;
+				PRODUCT_NAME = DailyQuotesTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyQuotes.app/DailyQuotes";
+			};
+			name = Release;
+		};
+		31F2B3631374177FF6038362 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DailyQuotes/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mac.dailyquotes;
+				PRODUCT_NAME = DailyQuotes;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A549092727171D971DC770CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DailyQuotes/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mac.dailyquotes;
+				PRODUCT_NAME = DailyQuotes;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C0BF57043CB2AC1D87BAC166 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D3C5CA943188C171D0F32F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGNING_ALLOWED = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mac.dailyquotes.tests;
+				PRODUCT_NAME = DailyQuotesTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DailyQuotes.app/DailyQuotes";
+			};
+			name = Debug;
+		};
+		E98A6CEEE32E89E8FD70E1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17E67EF209339FD691082289 /* Build configuration list for PBXProject "DailyQuotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BF57043CB2AC1D87BAC166 /* Debug */,
+				E98A6CEEE32E89E8FD70E1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9507926CF13CCAABBF1B32D4 /* Build configuration list for PBXNativeTarget "DailyQuotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A549092727171D971DC770CB /* Debug */,
+				31F2B3631374177FF6038362 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C4DEA30C040325FF4B9B334A /* Build configuration list for PBXNativeTarget "DailyQuotesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C5CA943188C171D0F32F7B /* Debug */,
+				243C675911229D8D806ED9C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4CB65C112DBD785574586C6 /* Project object */;
+}
